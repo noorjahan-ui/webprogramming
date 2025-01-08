@@ -1,0 +1,31 @@
+<html>
+<head>
+<titile>changebackground</titile>
+</head>
+<body>
+<h1 id="h"><u>welcome to javascript</u></h1>
+<p>javascript is a programming language.java script used to dynamic content for websites</p>
+<hr>
+change your webpage background to:
+<button onclick="changeback('lightpink')">pink</button>
+<button onclick="changeback('lightgreen')">green</button>
+<button onclick="changeback('lightblue')">blue</button>
+<br>
+<br>
+change your headinge background  to:
+<button onclick="changehead('red')">red</button>
+<button onclick="changehead('green')">green</button>
+<button onclick="changehead('blue')">blue</button>
+<script>
+function changeback(color)
+{
+document.body.style.background=color;
+}
+function changehead(color)
+{
+var c=document.getElementById("h");
+c.style.background=color;
+}
+</script>
+</body>
+</html>
